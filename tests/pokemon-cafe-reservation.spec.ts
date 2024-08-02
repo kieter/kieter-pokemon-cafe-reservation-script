@@ -23,10 +23,7 @@ test('make reservation', async ({ page }) => {
 
     // complete reservation page
     const reservationPage = new ReservationPage(page);
-    await reservationPage.selectGuestNumber(2);
-    await reservationPage.selectDate(2024, 9, 2);
-    await checkCongested(page);
 
-    // if there are available times the screen will pause, otherwise retry
+    // find a booking
     await reservationPage.checkAvailableTime();
 });
