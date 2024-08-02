@@ -44,6 +44,7 @@ export class ReservationPage {
             }
         }, date);
         await this.nextStepButton.click();
+        await expect(this.page.getByText("Sorry. There are no available seats can be found on your requested time and date.")).not.toBeVisible();
         await this.page.waitForURL('https://reserve.pokemon-cafe.jp/reserve/step2', { timeout: 5000 });
     }
 
