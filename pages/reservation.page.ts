@@ -49,7 +49,7 @@ export class ReservationPage {
 
     async checkAvailableTime() {
         // 空席 (kuseki) means empty seat in japanese
-        await expect(this.page.getByText("空席").first()).toBeVisible( { timeout: 3000 });
+        await expect(this.page.getByText("空席").first()).toBeVisible( { timeout: 500 });
         await this.page.pause();
     }
 
