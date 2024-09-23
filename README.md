@@ -1,5 +1,5 @@
 # Background
-This is a script that lets you get an edge on booking the Pokémon café. A lot of secondary markets have emerged on fiverr and other e-commerce sites that provide this service for $$$ since Pokémon café reservation website is generally unprotected from botting (and thus are absolute flooded with bots): 
+This is a script that lets you get an edge on booking the Pokémon café. A lot of secondary markets have emerged on fiverr and other e-commerce sites that provide this service for $$$ since Pokémon café reservation website is generally unprotected from botting (and thus are absolute flooded with bots). Example of one of these websites charging so much money: 
 
 ![img copy](https://github.com/user-attachments/assets/acba74b3-85e5-496e-9a4b-62a3074508e2)
 
